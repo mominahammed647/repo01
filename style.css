@@ -1,0 +1,15 @@
+.box{
+  backdrop-filter: blur(4px);
+  
+  height: 20vh;
+  width: 80%;
+ 
+}
+
+.sarif{
+  background: url('https://m.media-amazon.com/images/I/71XYo9XZjsL._AC_UF1000,1000_QL80_.jpg');
+}
+
+.borno{
+  
+}
