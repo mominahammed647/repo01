@@ -10,6 +10,42 @@
   background: url('https://m.media-amazon.com/images/I/71XYo9XZjsL._AC_UF1000,1000_QL80_.jpg');
 }
 
-.borno{
-  
-}
+body {
+      font-family: Arial;
+      background: #f4f4f4;
+    }
+    .chatbox {
+      width: 300px;
+      margin: 50px auto;
+      background: white;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    .messages {
+      height: 300px;
+      overflow-y: auto;
+      border-bottom: 1px solid #ccc;
+      padding: 5px;
+    }
+    .input-box {
+      display: flex;
+      margin-top: 10px;
+    }
+    input {
+      flex: 1;
+      padding: 5px;
+    }
+    button {
+      padding: 5px 10px;
+    }
+    .user {
+      text-align: right;
+      color: blue;
+      margin: 5px;
+    }
+    .bot {
+      text-align: left;
+      color: green;
+      margin: 5px;
+    }
